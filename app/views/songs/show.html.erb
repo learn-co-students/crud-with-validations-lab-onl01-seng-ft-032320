@@ -1,0 +1,5 @@
+<h2><%= @song.title %></h2>
+  <%= link_to "Delete", @song, method: :delete, data: { confirm: "Are you sure you want to delete this song?" } %>
+  <br>
+  <br>
+<%= link_to "See All Songs", songs_path %>
